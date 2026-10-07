@@ -1,0 +1,21 @@
+TUYAGE 3.0.20 - PREPARATION WINDOWS
+
+Deux modes sont fournis :
+1) Tuyage.exe : pour le PC HOTE. Il demarre automatiquement le serveur local sur 9090 s'il n'est pas deja lance, puis ouvre le client.
+2) Tuyage-Client.exe : pour les autres PC. Il ouvre seulement le client. Dans l'ecran de connexion, saisir l'IP du PC hote, par exemple 192.168.137.1:9090 sur le hotspot actuel.
+3) Tuyage-Serveur.exe : serveur seul, utile pour diagnostic/serveur dedie.
+
+CREER UNE VERSION SANS JAVA/MAVEN POUR L'UTILISATEUR
+- Sur le PC de developpement seulement : JDK 21 + Maven sont necessaires.
+- Double-cliquer Construire-Tuyage-Portable.bat.
+- Le dossier dist\Tuyage contient ensuite l'application et son propre runtime Java.
+- Les PC utilisateurs n'ont alors besoin ni de Java ni de Maven.
+
+CREER UN INSTALLATEUR .EXE
+- Double-cliquer Construire-Tuyage-Setup-EXE.bat.
+- jpackage sous Windows peut necessiter WiX Toolset pour fabriquer un installateur EXE.
+- Le resultat est place dans installer\.
+
+RESEAU
+- Autoriser TCP 9090 dans le pare-feu du PC hote.
+- Pour le hotspot Windows actuel du PC hote : 192.168.137.1:9090.

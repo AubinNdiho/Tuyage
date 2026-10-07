@@ -1,0 +1,31 @@
+# Compilation Maven
+target/
+
+# Application Windows construite
+dist/
+
+# Base de données et données locales
+data/
+
+# Java et Maven portables
+outils_portables/
+
+# Logs
+*.log
+
+# IntelliJ IDEA
+.idea/
+
+# NetBeans
+nbproject/private/
+
+# Visual Studio Code
+.vscode/
+
+# Fichiers temporaires Windows
+Thumbs.db
+Desktop.ini
+
+# Fichiers temporaires
+*.tmp
+*.temp

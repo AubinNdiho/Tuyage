@@ -1,0 +1,11 @@
+SUR LE NOUVEAU PC WINDOWS 64 BITS :
+1. Internet necessaire une seule fois pour telecharger Java/Maven portables et les dependances.
+2. Double-cliquer CONSTRUIRE-SANS-INSTALLER.bat (pas besoin de les installer).
+3. Attendre la creation de dist\Tuyage.
+4. Ouvrir dist\Tuyage\LIRE-MOI.txt.
+
+IMPORTANT : ce ZIP est un projet avec un CONSTRUCTEUR automatique,
+PAS une application Windows deja compilee. Le script doit etre teste
+sur votre PC Windows ; si Maven rencontre une erreur de compilation,
+il faudra la corriger. Aucun outil Java/Maven n'est installe dans Windows :
+ils sont extraits dans _outils_portables du projet.

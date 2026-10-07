@@ -1,0 +1,22 @@
+# Checklist finale
+
+- [ ] Build NetBeans : BUILD SUCCESS
+- [ ] Serveur 9090 : LISTENING
+- [ ] Connexion PC client -> serveur : TcpTestSucceeded True
+- [ ] Création/connexion par téléphone
+- [ ] Profil Moi + photo + bio
+- [ ] Contacts + blocage/déblocage
+- [ ] Texte + médias + vocal
+- [ ] Réponse / édition / transfert / suppression / réaction / épingle
+- [ ] Notifications + badges + états envoyé/livré/lu
+- [ ] Unread conservé après reconnexion
+- [ ] Groupe + owner/admin/member
+- [ ] Statuts 24h + vues + commentaires
+- [ ] Appel audio réel sur 2 PC
+- [ ] Appel vidéo réel sur 2 PC
+- [ ] Appel groupe : Rejoindre/Ignorer
+- [ ] Historique d'appels persistant
+- [ ] Archive / mute / pin conversation
+- [ ] Fond personnalisé + clair/sombre
+- [ ] Récupération mot de passe OTP TP
+- [ ] Redémarrage serveur : données conservées

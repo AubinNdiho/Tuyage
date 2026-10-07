@@ -1,0 +1,68 @@
+.root { -fx-background-color: #0e1118; -fx-text-fill: #edf1f7; }
+.label { -fx-text-fill: #edf1f7; }
+.text-field, .password-field, .text-area { -fx-background-color: #191e29; -fx-text-fill: white; -fx-prompt-text-fill: #7e899c; -fx-border-color: #2c3445; }
+.text-area .content { -fx-background-color: #191e29; }
+.auth-card, .list-shell, .content-shell, .chat-header, .composer { -fx-background-color: #131720; }
+.auth-card { -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.40), 32, 0.1, 0, 12); }
+.list-shell { -fx-border-color: transparent #262d3a transparent transparent; }
+.clean-list .list-cell:hover, .clean-list .list-cell:selected { -fx-background-color: #22283a; }
+.icon-button { -fx-background-color: #242b39; -fx-text-fill: #e9edf4; }
+.soft-button { -fx-background-color: #17365f; -fx-text-fill: #fff0a8; }
+.messages-scroll, .messages-scroll > .viewport, .messages-layer { -fx-background-color: transparent; -fx-background: transparent; }
+.message-other { -fx-background-color: #1b2130; }
+.message-mine { -fx-background-color: #17365f; }
+.message-meta, .muted, .muted-small { -fx-text-fill: #8994a8; }
+.reply-banner { -fx-background-color: #17365f; -fx-text-fill: #fff0a8; }
+.comment-line { -fx-background-color: #1b2130; }
+.media-button { -fx-background-color: #17365f; -fx-text-fill: #fff0a8; }
+.danger-button { -fx-background-color: #4b202a; -fx-text-fill: #ffb7c4; }
+.audio-preview { -fx-background-color: #172331; -fx-border-color: #2c3b4c transparent transparent transparent; }
+.call-history-title { -fx-text-fill: #edf2ff; }
+.call-history-missed { -fx-text-fill: #ff6b6b; }
+
+.welcome-card { -fx-background-color: rgba(19,23,32,0.92); }
+.audio-recording { -fx-background-color: #3b2028; -fx-border-color: #5b2c38 transparent transparent transparent; }
+.audio-ready { -fx-background-color: #172331; }
+
+.me-card { -fx-background-color: #17365f; -fx-border-color: #244f85; }
+.me-card:hover { -fx-background-color: #244f85; }
+.me-card-kicker { -fx-text-fill: #ffd21f; }
+
+/* Tuyage 3.0 FINAL TP */
+.contact-tag { -fx-background-color: rgba(112,118,255,0.20); -fx-text-fill: #ffd21f; }
+.blocked-state { -fx-text-fill: #ff8295; }
+.chat-search { -fx-background-color: #252d42; -fx-text-fill: #eef3ff; -fx-prompt-text-fill: #8390a7; }
+.pinned-section-title { -fx-text-fill: #a9b3c7; }
+
+.media-gallery-row {
+    -fx-background-color: rgba(255,255,255,.055);
+    -fx-border-color: rgba(255,255,255,.08);
+}
+
+/* Tuyage 3.0.3 - statuts */
+.status-ring-viewed { -fx-border-color: #4c5568; }
+.status-section-title { -fx-text-fill: #9da8bc; }
+.status-empty-hint { -fx-text-fill: #7f899d; }
+.status-list-scroll, .status-list-scroll > .viewport { -fx-background-color: transparent; -fx-background: transparent; }
+
+/* Tuyage Blue & Yellow — dark accent palette */
+.nav-rail { -fx-background-color:#071d3d; }
+.primary-button { -fx-background-color:#1769e0; -fx-text-fill:white; }
+.send-button { -fx-background-color:#ffb800; -fx-text-fill:#132a4a; }
+.avatar-circle { -fx-background-color:#1769e0; }
+.status-ring { -fx-border-color:#ffb800; }
+.unread-badge { -fx-background-color:#ffb800; -fx-text-fill:#132a4a; }
+.call-avatar { -fx-background-color:#ffd21f; -fx-text-fill:#132a4a; }
+.local-video { -fx-border-color:#ffd21f; }
+
+/* Tuyage Blue/Yellow dark readability */
+.root { -fx-background-color:#071a33; -fx-text-fill:#f7f9ff; -fx-font-size:14px; }
+.nav-rail { -fx-background-color:#ffd21f; }
+.nav-button { -fx-text-fill:#102d55; -fx-font-size:13px; -fx-font-weight:800; }
+.list-shell { -fx-background-color:#0c2443; }
+.content-shell { -fx-background-color:#071a33; }
+.chat-header { -fx-background-color:#1769e0; }
+.message-mine { -fx-background-color:#1769e0; }
+.message-other { -fx-background-color:#4d410d; }
+.message-text { -fx-font-size:16px; }
+.composer { -fx-background-color:#0c2443; }

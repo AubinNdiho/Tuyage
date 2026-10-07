@@ -1,0 +1,13 @@
+TUYAGE DESKTOP - INSTALLATION SIMPLE
+
+1. Sur TON PC serveur : installe Tuyage-Serveur-Setup.exe et lance le serveur.
+2. Note l'adresse IPv4 de ton PC (ipconfig), par exemple 192.168.1.10.
+3. Partage uniquement Tuyage-Setup.exe aux autres personnes.
+4. Elles double-cliquent, installent Tuyage, puis le lancent.
+5. Sur l'ecran de connexion Tuyage, dans Serveur, elles mettent : 192.168.1.10:9090
+6. Tous les PC doivent etre sur le meme Wi-Fi, hotspot ou reseau LAN.
+
+Aucun Java, Maven ou NetBeans n'est necessaire sur les PC clients.
+
+VIDEO : le correspondant est affiche en grand et votre propre camera en petite vignette en haut a droite.
+ICONE : le fichier Windows utilise une icone multi-resolution recadree presque bord-a-bord.

@@ -1,0 +1,334 @@
+.root {
+    -fx-font-family: "Segoe UI", "Inter", sans-serif;
+    -fx-background-color: #fff8df;
+    -fx-text-fill: #132a4a;
+}
+.label { -fx-text-fill: #132a4a; }
+.text-field, .password-field, .text-area {
+    -fx-background-color: #fffdf5;
+    -fx-border-color: #b9c9e8;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-padding: 11 13;
+    -fx-font-size: 13px;
+}
+.text-area .content { -fx-background-color: #fffdf5; -fx-background-radius: 12; }
+.button { -fx-cursor: hand; -fx-font-weight: 600; -fx-background-radius: 12; -fx-padding: 9 14; }
+.primary-button { -fx-background-color: linear-gradient(to right, #1769e0, #0d55bc); -fx-text-fill: white; }
+.soft-button { -fx-background-color: #fff0a8; -fx-text-fill: #164f9f; }
+.icon-button { -fx-background-color: #e8effc; -fx-text-fill: #17365f; -fx-font-size: 16px; -fx-min-width: 42; -fx-min-height: 42; }
+.send-button { -fx-background-color: linear-gradient(to bottom right, #1769e0, #ffb800); -fx-text-fill: white; -fx-font-size: 16px; -fx-min-width: 44; -fx-min-height: 44; }
+.auth-brand { -fx-background-color: linear-gradient(to bottom right, #0d47a1, #1769e0 55%, #ffb800); -fx-pref-width: 420; }
+.auth-brand .label { -fx-text-fill: white; }
+.brand-title { -fx-font-size: 42px; -fx-font-weight: 800; }
+.auth-card { -fx-background-color: #fffdf5; -fx-background-radius: 24; -fx-effect: dropshadow(gaussian, rgba(35,45,80,0.14), 35, 0.15, 0, 12); -fx-max-width: 520; }
+.auth-tabs { -fx-background-color: transparent; }
+.server-field { -fx-font-family: "Consolas"; }
+.nav-rail { -fx-background-color: #0d47a1; }
+.nav-button { -fx-background-color: transparent; -fx-text-fill: #e7ebff; -fx-font-size: 12px; -fx-padding: 10 4; -fx-content-display: top; }
+.nav-button:hover { -fx-background-color: rgba(255,255,255,0.10); }
+.list-shell { -fx-background-color: #eaf2ff; -fx-border-color: transparent #b8cae8 transparent transparent; }
+.content-shell { -fx-background-color: #fffdf5; }
+.section-title { -fx-font-size: 24px; -fx-font-weight: 800; }
+.clean-list { -fx-background-color: transparent; -fx-border-color: transparent; }
+.clean-list .list-cell { -fx-background-color: transparent; -fx-padding: 9 6; -fx-background-radius: 13; }
+.clean-list .list-cell:hover, .clean-list .list-cell:selected { -fx-background-color: #cfe0ff; }
+.avatar-circle { -fx-background-color: linear-gradient(to bottom right, #1769e0, #ffb800); -fx-background-radius: 999; -fx-text-fill: white; -fx-font-weight: 800; -fx-alignment: center; -fx-min-width: 44; -fx-min-height: 44; -fx-max-width: 44; -fx-max-height: 44; }
+.status-ring { -fx-border-color: #ffb800; -fx-border-width: 3; -fx-border-radius: 999; }
+.item-title { -fx-font-size: 14px; -fx-font-weight: 700; }
+.muted { -fx-text-fill: #63738c; }
+.muted-small { -fx-text-fill: #7b899e; -fx-font-size: 11px; }
+.online { -fx-text-fill: #148a63; -fx-font-size: 11px; -fx-font-weight: 700; }
+.chat-header { -fx-padding: 17 22; -fx-background-color: #eaf2ff; -fx-border-color: transparent transparent #b8cae8 transparent; }
+.chat-title { -fx-font-size: 18px; -fx-font-weight: 800; }
+.messages-scroll { -fx-background: transparent; -fx-background-color: transparent; -fx-border-color: transparent; }
+.messages-scroll > .viewport { -fx-background-color: transparent; }
+.messages-layer { -fx-background-color: transparent; }
+.message-bubble { -fx-padding: 10 13; -fx-background-radius: 15; -fx-effect: dropshadow(gaussian, rgba(20,30,60,0.06), 8, 0, 0, 2); }
+.message-mine { -fx-background-color: #dce9ff; }
+.message-other { -fx-background-color: #fffdf5; }
+.message-text { -fx-font-size: 14px; }
+.sender-name { -fx-font-weight: 800; -fx-text-fill: #0d55bc; -fx-font-size: 11px; }
+.message-meta { -fx-text-fill: #6f7c91; -fx-font-size: 9px; }
+.quoted-message { -fx-background-color: rgba(80,90,170,0.10); -fx-padding: 6 8; -fx-background-radius: 8; -fx-text-fill: #52637c; }
+.reaction-line { -fx-font-size: 12px; -fx-background-color: rgba(255,255,255,0.65); -fx-background-radius: 8; -fx-padding: 3 6; }
+.emoji-message { -fx-font-size: 38px; }
+.chat-image { -fx-background-radius: 12; }
+.media-button { -fx-background-color: rgba(69,78,160,0.10); -fx-text-fill: #164f9f; }
+.composer { -fx-padding: 12 16; -fx-background-color: #eaf2ff; -fx-border-color: #b8cae8 transparent transparent transparent; }
+.reply-banner { -fx-padding: 7 18; -fx-background-color: #fff0a8; -fx-text-fill: #164f9f; }
+.typing-label { -fx-padding: 4 18; -fx-text-fill: #1769e0; -fx-font-style: italic; }
+.recording { -fx-background-color: #ffe1d7; -fx-text-fill: #b83e25; }
+.welcome-mark { -fx-font-size: 72px; -fx-text-fill: #ffb800; }
+.welcome-title { -fx-font-size: 30px; -fx-font-weight: 800; }
+.status-card { -fx-background-radius: 24; -fx-min-height: 360; -fx-alignment: center; }
+.status-card .label { -fx-text-fill: white; }
+.status-aurora { -fx-background-color: linear-gradient(to bottom right, #1769e0, #53a6ff); }
+.status-ocean { -fx-background-color: linear-gradient(to bottom right, #0d47a1, #1769e0); }
+.status-rose { -fx-background-color: linear-gradient(to bottom right, #ffb800, #ff6b35); }
+.status-night { -fx-background-color: linear-gradient(to bottom right, #132a4a, #244f85); }
+.status-text { -fx-font-size: 30px; -fx-font-weight: 700; -fx-text-alignment: center; -fx-alignment: center; -fx-max-width: 650; }
+.status-author { -fx-font-weight: 700; }
+.comment-line { -fx-background-color: #dce9ff; -fx-padding: 8 10; -fx-background-radius: 10; }
+.toast { -fx-background-color: #0d47a1; -fx-text-fill: white; -fx-padding: 10 16; -fx-background-radius: 999; }
+.separator *.line { -fx-border-color: rgba(140,150,175,0.25); }
+
+/* v1.2 - appels, sécurité et audio */
+.danger-button { -fx-background-color: #ffe1d7; -fx-text-fill: #b83e25; }
+.audio-preview { -fx-padding: 9 16; -fx-background-color: #dce9ff; -fx-border-color: #b8cae8 transparent transparent transparent; }
+.call-root { -fx-background-color: linear-gradient(to bottom right, #0d47a1, #1769e0 52%, #132a4a); }
+.call-root .label { -fx-text-fill: white; }
+.call-avatar { -fx-min-width: 110; -fx-min-height: 110; -fx-max-width: 110; -fx-max-height: 110; -fx-alignment: center; -fx-background-color: linear-gradient(to bottom right, #1769e0, #ffb800); -fx-background-radius: 999; -fx-font-size: 34px; -fx-font-weight: 800; -fx-text-fill: white; }
+.call-name { -fx-font-size: 28px; -fx-font-weight: 800; }
+.call-status { -fx-font-size: 14px; -fx-text-fill: #dce9ff; }
+.call-duration { -fx-font-size: 18px; -fx-font-family: "Consolas"; }
+.call-warning { -fx-text-fill: #fff0a8; -fx-font-size: 12px; -fx-max-width: 620; -fx-text-alignment: center; }
+.call-control { -fx-background-color: rgba(255,255,255,0.16); -fx-text-fill: white; -fx-min-width: 110; }
+.call-end { -fx-background-color: #ff5b3d; -fx-text-fill: white; -fx-min-width: 120; }
+.video-pane { -fx-background-color: #091c38; -fx-background-radius: 18; -fx-padding: 10; }
+.remote-video { -fx-background-color: #091c38; }
+.local-video { -fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 12; -fx-background-radius: 12; }
+
+.unread-badge { -fx-background-color: #ffb800; -fx-text-fill: white; -fx-font-weight: 800; -fx-font-size: 10px; -fx-padding: 3 7; -fx-background-radius: 999; }
+.read-receipt { -fx-font-size: 11px; -fx-font-weight: 900; }
+.read-receipt-pending { -fx-text-fill: #8391a5; }
+.read-receipt-read { -fx-text-fill: #1769e0; }
+
+/* Historique des appels dans les conversations */
+.call-history { -fx-padding: 4 2 2 2; }
+.call-history-icon { -fx-font-size: 24px; }
+.call-history-title { -fx-font-size: 13px; -fx-font-weight: 800; }
+.call-history-missed { -fx-text-fill: #bf4739; }
+
+
+/* Tuyage v2 - fond personnalisable et audio vocal */
+.welcome-card {
+    -fx-background-color: rgba(255,255,255,0.90);
+    -fx-background-radius: 28;
+    -fx-effect: dropshadow(gaussian, rgba(25,35,70,0.18), 30, 0.15, 0, 10);
+}
+.audio-recording {
+    -fx-background-color: #ffe1d7;
+    -fx-border-color: #ffc4b5 transparent transparent transparent;
+}
+.audio-ready { -fx-background-color: #dce9ff; }
+.recording-dot { -fx-text-fill: #ff5b3d; -fx-font-size: 18px; -fx-font-weight: 900; }
+
+/* Tuyage v2.1 - identité locale et vidéo façon WhatsApp */
+.me-card {
+    -fx-background-color: #fff0a8;
+    -fx-background-radius: 16;
+    -fx-border-color: #e2c44e;
+    -fx-border-radius: 16;
+    -fx-cursor: hand;
+}
+.me-card:hover { -fx-background-color: #ffe46c; }
+.me-card-kicker { -fx-text-fill: #1769e0; -fx-font-size: 10px; -fx-font-weight: 800; }
+.remote-video-placeholder {
+    -fx-text-fill: #dce9ff;
+    -fx-font-size: 16px;
+    -fx-font-weight: 700;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-padding: 20;
+}
+.remote-video-source {
+    -fx-background-color: rgba(0,0,0,0.58);
+    -fx-background-radius: 999;
+    -fx-padding: 6 10;
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+    -fx-font-weight: 700;
+}
+.local-video-source {
+    -fx-background-color: rgba(0,0,0,0.62);
+    -fx-background-radius: 999;
+    -fx-padding: 3 7;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-font-weight: 700;
+}
+
+/* Tuyage 3.0 FINAL TP - contacts, recherche et conversations */
+.contact-tag {
+    -fx-background-color: #fff0a8;
+    -fx-text-fill: #164f9f;
+    -fx-font-size: 9px;
+    -fx-font-weight: 800;
+    -fx-padding: 2 6;
+    -fx-background-radius: 999;
+}
+.blocked-state { -fx-text-fill: #bf4739; -fx-font-size: 11px; -fx-font-weight: 800; }
+.conversation-indicator { -fx-font-size: 11px; -fx-opacity: 0.78; }
+.chat-search {
+    -fx-background-color: #fffdf5;
+    -fx-background-radius: 999;
+    -fx-border-color: transparent;
+    -fx-padding: 8 12;
+}
+.pinned-section-title {
+    -fx-text-fill: #60718a;
+    -fx-font-size: 11px;
+    -fx-font-weight: 800;
+    -fx-padding: 2 4 6 4;
+}
+.status-progress > .bar { -fx-background-color: #fffdf5; -fx-background-radius: 999; }
+.status-progress > .track { -fx-background-color: rgba(255,255,255,0.30); -fx-background-radius: 999; }
+
+.link-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #1769e0;
+    -fx-font-weight: 700;
+    -fx-padding: 4 0 4 0;
+    -fx-cursor: hand;
+    -fx-alignment: CENTER_LEFT;
+}
+.link-button:hover { -fx-underline: true; }
+
+.media-gallery-row {
+    -fx-background-color: rgba(255,255,255,.72);
+    -fx-background-radius: 12;
+    -fx-padding: 10 12 10 12;
+    -fx-border-color: rgba(70,90,150,.10);
+    -fx-border-radius: 12;
+}
+
+/* Tuyage 3.0.3 - visualisation enchainee des statuts */
+.status-ring-viewed {
+    -fx-border-color: #c9ced8;
+    -fx-border-width: 2;
+    -fx-border-radius: 999;
+}
+.status-section-title {
+    -fx-text-fill: #6e7488;
+    -fx-font-size: 10px;
+    -fx-font-weight: 900;
+    -fx-padding: 8 4 2 4;
+}
+.status-empty-hint {
+    -fx-text-fill: #8a90a3;
+    -fx-font-size: 11px;
+    -fx-padding: 8 10;
+}
+.status-list-scroll, .status-list-scroll > .viewport {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+.status-position {
+    -fx-background-color: rgba(0,0,0,.22);
+    -fx-background-radius: 999;
+    -fx-padding: 4 8;
+    -fx-text-fill: white;
+    -fx-font-size: 10px;
+    -fx-font-weight: 800;
+}
+.status-close-button {
+    -fx-background-color: rgba(0,0,0,.22);
+    -fx-background-radius: 999;
+    -fx-text-fill: white;
+    -fx-font-weight: 900;
+    -fx-padding: 5 9;
+    -fx-cursor: hand;
+}
+.status-close-button:hover { -fx-background-color: rgba(0,0,0,.40); }
+
+
+/* Tuyage Blue & Yellow 2026 — palette only, original Tuyage layout preserved */
+.root { -fx-background-color:#fff8df; -fx-text-fill:#132a4a; }
+.auth-brand { -fx-background-color:linear-gradient(to bottom right,#0d47a1,#1769e0 68%,#ffb800); }
+.nav-rail { -fx-background-color:#0d47a1; }
+.nav-button { -fx-text-fill:#fffdf5; }
+.nav-button:hover { -fx-background-color:rgba(255,210,31,.22); }
+.list-shell { -fx-background-color:#eaf2ff; -fx-border-color:transparent #b8cae8 transparent transparent; }
+.content-shell { -fx-background-color:#fff8df; }
+.chat-header { -fx-background-color:#eaf2ff; -fx-border-color:transparent transparent #b8cae8 transparent; }
+.composer { -fx-background-color:#dce9ff; -fx-border-color:#b8cae8 transparent transparent transparent; }
+.primary-button { -fx-background-color:linear-gradient(to right,#0d55bc,#1769e0); -fx-text-fill:white; }
+.send-button { -fx-background-color:linear-gradient(to bottom right,#ffd21f,#ffb800); -fx-text-fill:#132a4a; }
+.avatar-circle { -fx-background-color:linear-gradient(to bottom right,#1769e0,#0d55bc); }
+.status-ring { -fx-border-color:#ffb800; }
+.message-mine { -fx-background-color:#dce9ff; }
+.message-other { -fx-background-color:#fff1a8; }
+.welcome-card { -fx-background-color:rgba(255,253,245,.94); }
+.me-card { -fx-background-color:#fff0a8; -fx-border-color:#e2c44e; }
+.call-root { -fx-background-color:linear-gradient(to bottom right,#0d47a1,#1769e0 52%,#132a4a); }
+.call-avatar { -fx-background-color:linear-gradient(to bottom right,#ffd21f,#ffb800); -fx-text-fill:#132a4a; }
+.local-video { -fx-border-color:#ffd21f; }
+.unread-badge { -fx-background-color:#ffb800; -fx-text-fill:#132a4a; }
+
+/* Tuyage Blue/Yellow Aero exact palette + lisibilite 2026-09-16 */
+.root { -fx-background-color:#fff8df; -fx-text-fill:#132a4a; -fx-font-size:14px; }
+.label { -fx-text-fill:#132a4a; }
+.nav-rail { -fx-background-color:#ffd21f; -fx-border-color:transparent #d99d00 transparent transparent; -fx-border-width:0 2 0 0; }
+.nav-button { -fx-background-color:transparent; -fx-text-fill:#17365f; -fx-font-size:13px; -fx-font-weight:800; -fx-padding:11 5; }
+.nav-button:hover { -fx-background-color:#fff0a8; }
+.list-shell { -fx-background-color:#eaf2ff; -fx-border-color:transparent #b8cae8 transparent transparent; }
+.content-shell { -fx-background-color:#fff8df; }
+.section-title { -fx-font-size:26px; -fx-font-weight:900; -fx-text-fill:#12335f; }
+.item-title { -fx-font-size:15px; -fx-font-weight:800; }
+.muted { -fx-text-fill:#52637c; -fx-font-size:13px; }
+.muted-small { -fx-text-fill:#63738c; -fx-font-size:12px; }
+.chat-header { -fx-padding:16 22; -fx-background-color:#1769e0; -fx-border-color:transparent; }
+.chat-header .label,.chat-header .chat-title { -fx-text-fill:white; }
+.chat-title { -fx-font-size:20px; -fx-font-weight:900; }
+.message-bubble { -fx-padding:12 16; -fx-background-radius:10; }
+.message-mine { -fx-background-color:#cfe5ff; }
+.message-other { -fx-background-color:#fff1a8; -fx-border-color:#e8c650; -fx-border-radius:10; }
+.message-text { -fx-font-size:16px; }
+.sender-name { -fx-font-size:13px; -fx-font-weight:900; -fx-text-fill:#0d55bc; }
+.message-meta { -fx-font-size:11px; -fx-text-fill:#53647d; }
+.composer { -fx-padding:14 18; -fx-background-color:#dce9ff; -fx-border-color:#b8cae8 transparent transparent transparent; }
+.text-field,.password-field,.text-area { -fx-background-color:#fffdf5; -fx-text-fill:#132a4a; -fx-prompt-text-fill:#63738c; -fx-border-color:#b9c9e8; -fx-font-size:14px; }
+.button { -fx-font-size:14px; -fx-font-weight:800; }
+.primary-button { -fx-background-color:#1769e0; -fx-text-fill:white; }
+.soft-button,.media-button { -fx-background-color:#dce9ff; -fx-text-fill:#164f9f; }
+.icon-button { -fx-background-color:#e8effc; -fx-text-fill:#17365f; -fx-font-size:18px; -fx-min-width:46; -fx-min-height:46; }
+.send-button { -fx-background-color:#ffb800; -fx-text-fill:#132a4a; -fx-font-size:19px; -fx-min-width:50; -fx-min-height:48; }
+.auth-brand { -fx-background-color:linear-gradient(to bottom right,#0d47a1 0%,#1769e0 52%,#ffd21f 52%,#ffb800 100%); -fx-pref-width:440; }
+.auth-card { -fx-background-color:#fffdf5; }
+.welcome-card { -fx-background-color:#fffdf5; -fx-border-color:#1769e0 #1769e0 #ffd21f #ffd21f; -fx-border-width:2 2 5 5; }
+.unread-badge { -fx-background-color:#ffb800; -fx-text-fill:#132a4a; -fx-font-size:12px; -fx-font-weight:900; }
+.call-root { -fx-background-color:linear-gradient(to bottom,#0d47a1,#132a4a); }
+.call-control { -fx-background-color:#1769e0; -fx-text-fill:white; -fx-font-size:14px; }
+.local-video { -fx-border-color:#ffd21f; -fx-border-width:3; }
+
+/* v3.0.16 - panneau de réglages : options secondaires hors de la vue principale */
+.settings-section { -fx-background-color:#fffdf5; -fx-background-radius:14; -fx-border-color:#d7e5f8; -fx-border-radius:14; -fx-padding:12; -fx-spacing:8; }
+.settings-section > .label { -fx-text-fill:#17365f; -fx-font-size:14px; -fx-font-weight:800; }
+.settings-action { -fx-background-color:#eef5ff; -fx-text-fill:#164f9f; -fx-font-size:13px; -fx-font-weight:700; -fx-alignment:center-left; -fx-padding:10 12; -fx-background-radius:10; }
+.settings-action:hover { -fx-background-color:#fff0a8; -fx-text-fill:#17365f; }
+
+/* Tuyage 3.0.17 — viewer de statuts immersif + formulaires premium */
+.status-overlay { -fx-background-color: rgba(5,15,32,.97); -fx-padding: 18 34 22 34; }
+.status-fullscreen-viewer { -fx-background-color:#071426; -fx-background-radius:22; -fx-padding:12 18 16 18; -fx-effect:dropshadow(gaussian,rgba(0,0,0,.48),34,0.18,0,10); }
+.status-fullscreen-viewer .status-card { -fx-min-height:560; -fx-background-radius:18; }
+.status-controls { -fx-alignment:center; -fx-padding:2 8; }
+.status-nav-arrow { -fx-background-color:rgba(255,255,255,.12); -fx-text-fill:white; -fx-font-size:30px; -fx-font-weight:900; -fx-min-width:54; -fx-min-height:48; -fx-background-radius:999; }
+.status-nav-arrow:hover { -fx-background-color:#ffcf28; -fx-text-fill:#132a4a; }
+.status-pause-button { -fx-background-color:transparent; -fx-text-fill:#dce9ff; -fx-font-size:18px; -fx-min-width:44; }
+.status-action-button { -fx-background-color:rgba(255,255,255,.12); -fx-text-fill:white; -fx-background-radius:999; -fx-min-width:44; -fx-min-height:40; }
+.status-action-button:hover { -fx-background-color:#ffcf28; -fx-text-fill:#132a4a; }
+.status-action-danger:hover { -fx-background-color:#ffded7; -fx-text-fill:#a62d1b; }
+.status-reply-bar { -fx-background-color:rgba(255,255,255,.08); -fx-background-radius:16; -fx-padding:8; }
+.status-reply-bar .text-field { -fx-background-color:rgba(255,255,255,.12); -fx-text-fill:white; -fx-prompt-text-fill:#b8c5d8; -fx-border-color:transparent; }
+.status-message-link { -fx-background-color:rgba(23,105,224,.10); -fx-border-color:#1769e0; -fx-border-width:0 0 0 3; -fx-padding:7 9; -fx-background-radius:7; -fx-cursor:hand; }
+.status-message-tag { -fx-text-fill:#1769e0; -fx-font-size:11px; -fx-font-weight:900; }
+
+.dialog-pane { -fx-background-color:#fffdf5; -fx-background-radius:22; -fx-border-color:#d5e2f5; -fx-border-radius:22; -fx-border-width:1; -fx-padding:8; }
+.dialog-pane > .header-panel { -fx-background-color:linear-gradient(to right,#eaf2ff,#fff6c9); -fx-background-radius:18 18 8 8; -fx-padding:18; }
+.dialog-pane > .header-panel .label { -fx-text-fill:#17365f; -fx-font-size:16px; -fx-font-weight:900; }
+.dialog-pane > .content.label { -fx-text-fill:#324a68; -fx-font-size:14px; -fx-padding:14 8; }
+.dialog-pane .button-bar .button { -fx-background-radius:12; -fx-padding:9 16; }
+.dialog-pane .text-field,.dialog-pane .password-field,.dialog-pane .text-area,.dialog-pane .combo-box,.dialog-pane .choice-box { -fx-background-color:white; -fx-border-color:#b9c9e8; -fx-border-radius:12; -fx-background-radius:12; -fx-padding:9 11; }
+
+/* Tuyage 3.0.18 — lecture/non-lus et statuts */
+.status-progress { -fx-min-height:6px; -fx-pref-height:6px; -fx-accent:#ffcf28; }
+.status-progress > .track { -fx-background-color:rgba(255,255,255,.42); -fx-background-radius:999; }
+.status-progress > .bar { -fx-background-color:#ffcf28; -fx-background-radius:999; -fx-background-insets:0; }
+.status-progress-image > .track { -fx-background-color:rgba(10,31,62,.52); -fx-border-color:rgba(255,255,255,.75); -fx-border-width:1; -fx-border-radius:999; }
+.status-progress-image > .bar { -fx-background-color:#ffcf28; }
+.status-action-button { -fx-padding:9 14; -fx-font-weight:800; }
+.unread-divider-line { -fx-min-height:1px; -fx-pref-height:1px; -fx-background-color:rgba(23,86,145,.25); }
+.unread-divider-label { -fx-background-color:#fff3b8; -fx-text-fill:#173b63; -fx-font-weight:800; -fx-padding:5 12; -fx-background-radius:999; }
+.status-reply-thumbnail { -fx-background-radius:10; }
+.status-reply-preview-text { -fx-background-color:rgba(255,255,255,.55); -fx-padding:7 9; -fx-background-radius:8; -fx-text-fill:#173b63; }

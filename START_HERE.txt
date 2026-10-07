@@ -1,0 +1,41 @@
+TUYAGE 3.0.9 FINAL TP - DEMARRAGE RAPIDE
+=======================================
+
+0) PRE-REQUIS RAPIDE
+--------------------
+- Java/JDK 21 sur les PC qui executent Tuyage.
+- Maven dans le PATH OU NetBeans avec son Maven integre.
+- Sur le PC client tu peux lancer : check-client-pc.bat
+
+1) PC SERVEUR
+-------------
+- Dezippe le projet.
+- Double-clique run-server.bat.
+- Laisse la fenetre ouverte.
+- Verifie si besoin : netstat -ano | findstr :9090
+- Trouve l'IPv4 : ipconfig
+
+2) PC CLIENT
+------------
+- Dezippe le meme projet.
+- Double-clique test-server-connection.bat et saisis l'IP du serveur.
+- Si TcpTestSucceeded = True, double-clique run-client.bat.
+- Dans "Adresse du serveur gRPC", mets IP_SERVEUR:9090.
+  Exemple : 192.168.137.224:9090
+- Ne lance PAS run-server.bat sur le PC client.
+
+3) MEME PC POUR TEST RAPIDE
+---------------------------
+- Serveur : run-server.bat
+- Client(s) : run-client.bat
+- Adresse : localhost:9090
+
+4) APPELS AUDIO / VIDEO
+-----------------------
+Pour un test reel, utilise 2 PC et idealement des casques/earphones afin d'eviter l'echo acoustique.
+Apres Decrocher, les consoles doivent afficher Audio envoye ET Audio recu.
+
+5) MOT DE PASSE OUBLIE
+----------------------
+Le projet contient un OTP de demonstration. Le code est affiche dans l'application et dans la console serveur.
+Dans une vraie application, ce code serait envoye par SMS via un fournisseur externe.

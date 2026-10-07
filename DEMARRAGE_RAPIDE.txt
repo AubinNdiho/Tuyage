@@ -1,0 +1,9 @@
+TUYAGE MESSENGER - DEMARRAGE RAPIDE
+
+1. Installer JDK 21 et Apache Maven une seule fois sur Windows.
+2. Double-cliquer Tuyage-Server.bat sur le PC serveur.
+3. Double-cliquer Tuyage-Client.bat sur chaque PC client.
+4. Garder la fenetre serveur ouverte pendant les tests.
+
+Cette version contient le correctif audio Opus v3.0.15.
+Le premier lancement Maven peut prendre un peu de temps car il telecharge les dependances.

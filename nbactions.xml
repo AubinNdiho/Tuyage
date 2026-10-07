@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+    <action>
+        <actionName>run</actionName>
+        <goals>
+            <goal>javafx:run</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>clean</actionName>
+        <goals>
+            <goal>clean</goal>
+        </goals>
+    </action>
+    <action>
+        <actionName>build</actionName>
+        <goals>
+            <goal>clean</goal>
+            <goal>compile</goal>
+        </goals>
+    </action>
+</actions>
